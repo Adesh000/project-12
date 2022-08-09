@@ -1,0 +1,260 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Raleway:wght@500;700&family=Rubik+Moonrocks&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway','Poppins';
+}
+
+.home {
+    background-color: #6f7b81;
+}
+nav {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    padding: 50px 100px;
+}
+
+.list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style-type: none;
+    width: 500px;
+    color: #fff;
+    position: relative;
+    bottom: 30px;
+    left: 150px;
+}
+
+.btn > button{
+    font-size: 20px;
+    padding: 10px 30px;
+    background: transparent;
+    color: #fff;
+    border: 1px solid #c6c5c5;
+    border-radius: 3px;
+    cursor: pointer;
+    position: relative;
+    bottom: 30px;
+}
+
+.home-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 100px;
+}
+
+.right-content {
+    width: 600px;
+    margin: 0 50px;
+}
+
+.right-content > h1 {
+    font-size: 60px;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.right-content > p {
+    font-family: 'Poppins';
+    color: #c6c5c5;
+    margin: 20px 0;
+}
+
+.home-content > img {
+    width: 400px;
+    height: 450px;
+    margin-right: 50px;
+}
+
+.mail-input {
+    background-color: #fff;
+    padding: 20px;
+}
+
+.mail-input > input {
+    border: none;
+    font-size: 20px;
+    margin-right: 65px;
+    margin-left: 20px;
+    width: 300px;
+}
+
+
+.talk-btn {
+    font-size: 20px;
+    padding: 10px 30px;
+    background-color: #60847c;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+.target > h3 {
+    font-size: 70px;
+    text-align: center;
+    width: 1000px;
+    margin: 100px;
+    position: relative;
+    left: 150px;
+}
+
+.figures {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 50px 100px;
+}
+
+.figures div h4 {
+    font-size: 50px;
+    text-align: center;
+}
+.figures div p {
+    font-size: 20px;
+    color: #4a4f51;
+    margin: 20px 0;
+    text-align: center;
+}
+
+.target > img {
+    width: 1200px;
+    position: relative;
+    left: 150px
+}
+
+.features > h1 {
+    font-size: 70px;
+    text-align: center;
+    width: 800px;
+    margin: 100px;
+    position: relative;
+    left: 250px;
+}
+
+.feature {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 100px;
+}
+
+.feature > img {
+    width: 500px;
+    height: 500px;
+}
+
+.feature > div {
+    width: 600px;
+}
+.feature div h3 {
+    font-size: 50px;
+    font-weight: 700;
+    margin: 30px 0;
+}
+
+.feature div p {
+    font-size: 20px;
+    color: #666b6e;
+    line-height: 30px;
+    margin: 20px 0;
+}
+
+.team-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 100px;
+}
+
+.team-content > h3 {
+    font-size: 50px;
+    width: 500px;
+}
+
+.team-content > p {
+    width: 600px;
+    font-size: 20px;
+    color: #666b6e;
+    line-height: 35px;
+}
+
+.team-members {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 100px;
+}
+.member > img {
+    width: 350px;
+}
+
+.member > h4 {
+    font-size: 25px;
+    margin: 20px 0;
+}
+.member > p {
+    width: 300px;
+    color: #666b6e;
+    line-height: 30px;
+}
+
+.team > button {
+    margin-bottom: 100px;
+    text-align: center;
+    position: relative;
+    left: 700px;
+}
+
+.footer {
+    background-color: rgb(10, 5, 26);
+    color: #fff;
+}
+
+.footer-bar {
+    padding: 50px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.social-media  {
+    display: flex;
+    align-items: center;
+}
+.social-media > div {
+    width: 40px;
+    height: 40px;
+    background-color: #666b6e;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+}
+.line {
+    margin: 0 100px;
+    height: 2px;
+    background-color: #828587;
+    border: none;
+}
+
+.footer-content {
+    padding: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.links > h4{
+    font-size: 25px;
+}
+
+.links ul {
+    color: #828587;
+    list-style-type: none;
+    margin: 30px 0;
+    line-height: 30px;
+}
